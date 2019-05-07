@@ -1,4 +1,4 @@
-                  clear all
+clear all
 timeFuseFloat = 10800; % 3 hours in seconds for brrazilian time comparison
 % prefixo do caminho da pasta dos arquivos
 prefix = '/home/riccelli/Downloads/ISCXddos/csv/sp15jun_';

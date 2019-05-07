@@ -1,7 +1,7 @@
 size = length(dataset);
 % %     lendo arquivos de respostas
-    load('labeledFlowsISCX2012.mat')
-    truth = readingTruthFiles(ff);
+%     load('/home/riccelli/MachineDDoS/ISCX2012/labeledFlowsISCX2012.mat')
+%     truth = readingTruthFiles(ff);
 for i= 1:size
     comunication = dataset(i);
     % % pegando os tempos onde a comunicação ocorreu com determinado destino
